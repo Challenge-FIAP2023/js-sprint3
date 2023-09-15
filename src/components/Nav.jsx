@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Nav (){
 return (
     <>
-        <Link to="home">Smart Trash</Link>
+        <Link to="">Smart Trash</Link>
         <Link to="aplicativo">Aplicativo</Link>
         <Link to="lixeira-inteligente">Lixeira Inteligente</Link>
         <Link to="coleta-seletiva">Coleta Seletiva</Link>

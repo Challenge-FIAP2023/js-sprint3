@@ -10,7 +10,12 @@ import ColetaSeletiva from './components/ColetaSeletiva.jsx'
 import Feedbacks from './components/Feedbacks.jsx'
 import Contato from './components/Contato.jsx'
 import Sobre from './components/Sobre.jsx'
-import './styles/index.css'
+import './styles/base.css'
+import './styles/btn.css'
+import './styles/card.css'
+import './styles/contato.css'
+import './styles/footer.css'
+import './styles/header.css'
 
 const router = createBrowserRouter([
   {
