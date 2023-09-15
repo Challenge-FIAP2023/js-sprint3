@@ -1,16 +1,17 @@
+import { } from 'react'
 import { Link } from "react-router-dom"
 
 function Nav (){
 return (
-    <div>
-        <Link to="/">SmartTrash</Link>
-        <Link to="/Lixeira Inteligente">Lixeira Inteligente</Link>
-        <Link to="/Aplicativo">Aplicativo</Link>
-        <Link to="/Coleta Seletiva">Coleta Seletiva</Link>
-        <Link to="/Feedbacks">Feedbacks</Link>
-        <Link to="/Sobre">Sobre</Link>
-        <Link to="/Contato">Contato</Link>
-    </div>
+    <>
+        <Link to="home">Smart Trash</Link>
+        <Link to="contato">Contato</Link>
+        <Link to="aplicativo">Aplicativo</Link>
+        <Link to="lixeira-inteligente">Lixeira Inteligente</Link>
+        <Link to="sobre">Sobre</Link>
+        <Link to="feedbacks">Feedbacks</Link>
+        <Link to="coleta-seletiva">Coleta Seletiva</Link>
+    </>
 )
 }
 
