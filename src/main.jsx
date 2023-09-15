@@ -18,12 +18,12 @@ const router = createBrowserRouter([
     errorElement: <Error />,
 
     children: [
-      {path: '/home', element: <Home />},
+      {path: '/', element: <Home />},
       {path: '/aplicativo', element: <Aplicativo />},
       {path: '/lixeira-inteligente', element: <LixeiraInteligente />},
       {path: '/coleta-seletiva', element: <ColetaSeletiva />},
-      {path: 'feedbacks', element: <Feedbacks />},
-      {path: 'contato', element: <Contato />},
+      {path: '/feedbacks', element: <Feedbacks />},
+      {path: '/contato', element: <Contato />},
       {path: '/sobre', element: <Sobre />}
     ]
 
