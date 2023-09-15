@@ -1,6 +1,6 @@
 import { } from 'react'
 
-function AppST(){
+function Aplicativo(){
     return (
         <>
         
@@ -9,4 +9,4 @@ function AppST(){
 }
 
 
-export default AppST
+export default Aplicativo
