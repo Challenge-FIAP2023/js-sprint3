@@ -2,11 +2,12 @@
 .form-container{
     background-color: #ffffffee;
     border-radius: 14px;
-    margin: 5% auto;
+    margin: 8% auto;
     max-width: 600px;
     width: 100%;
     overflow: hidden;
     border: 2px solid #3d5721;
+
 }
   
 /* header fomulário */

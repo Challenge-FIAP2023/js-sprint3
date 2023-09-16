@@ -22,7 +22,7 @@
     min-height: 350px;
     padding: 30px;
     border-radius: 15px;
-    background-color: #a2df60;
+    background-color: #35e060;
     transition: background-color 0.3s ease;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
@@ -39,8 +39,4 @@
     margin-top: 0;
     font-size: 26px;
 } 
-
-.card-item p {
-    text-align: justify;
-}
 
